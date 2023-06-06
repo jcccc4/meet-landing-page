@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    color: #28283d;
+    font-family: "Red Hat Display", " sans-serif";
+  }
+}
+
+@layer components {
+  .btn-link {
+    @apply h-[58px] p-4 rounded-full mx-auto font-black text-white text-des hover:bg-[#B18BDD];
+  }
+  .img-conversation {
+    @apply rounded-lg h-[143px] w-[151px] lg:h-[242px] lg:w-[255px];
+  }
+  .br-line {
+    @apply border-l border-solid border-purple m-auto h-[84px] w-[1px] opacity-25;
+  }
+  .br-circle {
+    @apply border border-solid border-purple m-auto border-opacity-25 rounded-full w-14 h-14 font-black text-des text-purple text-center pt-[15px] ;
+  }
+}
