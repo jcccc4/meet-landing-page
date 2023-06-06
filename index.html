@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Frontend Mentor | Meet landing page</title>
+  </head>
+  <body>
+    <header class="w-screen">
+      <img src="./assets/logo.svg" alt="Logo" class="mt-12 mx-auto" />
+    </header>
+    <section
+      class="mt-[54px] w-screen overflow-hidden flex justify-center md:mt-16 lg:hidden"
+    >
+      <img
+        src="./assets/tablet/image-hero.png"
+        alt="People"
+        class="h-[153px] object-cover md:h-[303px]"
+      />
+    </section>
+    <section class="lg:flex lg:justify-center lg:mt-[109px] lg:h-[358px]">
+      <img
+        src="./assets/desktop/image-hero-left.png"
+        alt="People"
+        class="hidden lg:inline"
+      />
+      <section
+        class="mt-12 mx-6 md:mt-16 md:mx-[155px] lg:mt-0 lg:w-[540px] lg:mx-0"
+      >
+        <section
+          class="font-hat font-black text-main text-center md:text-main-md lg:text-main-lg"
+        >
+          Group Chat <br />
+          for Everyone
+        </section>
+        <section
+          class="mx-6 my-4 text-purple text-center md:mx-0 lg:mt-[34px] lg:text-des-lg"
+        >
+          Meet makes it easy to connect with others face-to-face virtually and
+          collaborate across any device.
+        </section>
+        <section class="flex flex-col mt-8 gap-4 md:flex-row md:justify-center">
+          <button class="btn-link bg-[#4D96A9] px-10 md:m-0 hover:bg-[#71C0D4]">
+            Download <span class="text-[#8FE3F9]">v1.3</span>
+          </button>
+          <button class="btn-link bg-[#855FB1] px-[29px] md:m-0">
+            What is it?
+          </button>
+        </section>
+      </section>
+      <img
+        src="/dist/assets/desktop/image-hero-right.png"
+        alt="People"
+        class="hidden lg:inline"
+      />
+    </section>
+    <section class="mt-16 md:mt-20 lg:mt-[110px]">
+      <div class="br-line"></div>
+      <div class="br-circle">01</div>
+    </section>
+
+    <section
+      class="flex flex-wrap gap-6 justify-center items-center px-6 mt-16 md:mt-[67px] md:gap-[11px] lg:gap-[30px]"
+    >
+      <img
+        src="/dist/assets/desktop/image-woman-in-videocall.jpg"
+        alt="woman-in-videocall"
+        class="img-conversation"
+      />
+      <img
+        src="/dist/assets/desktop/image-women-videochatting.jpg"
+        alt="women-videochatting"
+        class="img-conversation"
+      />
+      <img
+        src="/dist/assets/desktop/image-men-in-meeting.jpg"
+        alt="men-in-meeting"
+        class="img-conversation"
+      />
+      <img
+        src="/dist/assets/desktop/image-man-texting.jpg"
+        alt="man-texting"
+        class="img-conversation"
+      />
+    </section>
+    <section class="mt-16 mx-6 md:mt-12 md:w-[573px] md:mx-auto lg:mt-20">
+      <section
+        class="text-des text-[#4D96A9] uppercase font-black text-center tracking-[4px]"
+      >
+        Built for modern use
+      </section>
+      <section
+        class="mt-6 text-center text-quote font-black md:text-main-2-md md:w-[445px] md:mx-auto"
+      >
+        Smarter meetings, all in one place
+      </section>
+      <section
+        class="mt-8 text-center text-purple text-des lg:text-dsc lg:w-[520px]"
+      >
+        Send messages,share files, show your screen, and record your meetings —
+        all in one workspace. Control who can join with invite-only team access,
+        data encryption, and data export.
+      </section>
+    </section>
+    <section class="mt-16 relative md:mt-20 lg:mt-18 lg:h-[308px]">
+      <section
+        class="absolute top-[112px] left-0 bg-[#4D96A9] h-[428px] -z-10 w-screen lg:h-[308px]" 
+      ></section>
+      <img
+        src="./assets/desktop/image-footer.jpg"
+        alt="Logo"
+        class="absolute w-screen h-[428px] top-[112px] left-0 mix-blend-multiply object-cover opacity-10 -z-10 lg:h-[308px]"
+      />
+      <section>
+        <div class="br-line"></div>
+        <div class="br-circle bg-white">02</div>
+      </section>
+      <section class="flex flex-col lg:flex-row lg:mt-[116px] lg:justify-start">
+        <section
+          class="text-white text-quote font-black text-center mt-16 md:w-[457px] md:mx-auto md:text-main-2-md lg:m-0 lg:w-[350px] lg:text-left lg:ml-[165px]"
+        >
+          Experience more together
+        </section>
+        <section
+          class="text-white text-dsc text-center mt-6 mx-6 md:w-[573px] md:mx-auto md:mt-8 lg:m-0 lg:ml-[125px] lg:w-[350px] lg:text-left"
+        >
+          Stay connected with reliable HD meetings and unlimited one-on-one and
+          group video sessions.
+        </section>
+        <button
+          class="btn-link bg-[#855FB1] text-center mx-auto w-[193px] mt-8 md:mt-10 lg:m-0 lg:ml-[92px] "
+        >
+          Download <span class="text-[#D9B8FF]">v1.3</span>
+        </button>
+      </section>
+    </section>
+  </body>
+</html>
